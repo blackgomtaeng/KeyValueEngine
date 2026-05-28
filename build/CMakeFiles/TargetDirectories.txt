@@ -1,0 +1,4 @@
+C:/git/KeyValueEngine/build/CMakeFiles/kve.dir
+C:/git/KeyValueEngine/build/CMakeFiles/kve_bin.dir
+C:/git/KeyValueEngine/build/CMakeFiles/ALL_BUILD.dir
+C:/git/KeyValueEngine/build/CMakeFiles/ZERO_CHECK.dir

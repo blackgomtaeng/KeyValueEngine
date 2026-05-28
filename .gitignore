@@ -53,3 +53,12 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Database files
+*.sql
+*.sql*
+*.db
+*.db*
+*.log
+*.sqlitedb
+*.sqlitedb*

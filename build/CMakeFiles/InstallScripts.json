@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/git/KeyValueEngine/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
