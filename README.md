@@ -12,7 +12,7 @@
 # Windows = CMakelists.txt 파일을 실행하는 빌드 명령어
 mkdir build ; cd build                      # 1. 빌드 전용 디렉토리 생성 및 이동
 cmake .. ; cmake --build . --config Release # 2. 크로스플랫폼 메이크파일 구성 및 최종 컴파일 (한 줄로 결합 실행)
-move Release\* . ; .\kve.exe                # 3. 산출된 결과물을 상위 실행 위치로 가져와서 가동
+move Release\* . ; ./kve.exe                # 3. 산출된 결과물을 상위 실행 위치로 가져와서 가동
 
 
 # Linux/Unix = CMakelists.txt 파일을 실행하는 빌드 명령어
