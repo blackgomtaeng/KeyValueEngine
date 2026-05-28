@@ -9,10 +9,11 @@
 
 # 만약 위에 있는 방법들이 귀찮다면 윈도우 내에서는 visual studio 최신버전을 설치해주세요. 블로그나 다른 곳에서 최신버전과 달리 구버전을 설치해라고 하는 경우가 있는데요. 회사 양식에 맞춰야 한다면 구버전을 구하여 설치하시고 그외에 양식이 아니어도 상관이 없다면 최신버전으로 접근하여 설치하시기 바랍니다.
 
+
 # Windows = CMakelists.txt 파일을 실행하는 빌드 명령어
 mkdir build ; cd build                      # 1. 빌드 전용 디렉토리 생성 및 이동
 cmake .. ; cmake --build . --config Release # 2. 크로스플랫폼 메이크파일 구성 및 최종 컴파일 (한 줄로 결합 실행)
-move Release\* . ; ./kve.exe                # 3. 산출된 결과물을 상위 실행 위치로 가져와서 가동
+move Release\* . ; .\kve.exe                # 3. 산출된 결과물을 상위 실행 위치로 가져와서 가동
 
 
 # Linux/Unix = CMakelists.txt 파일을 실행하는 빌드 명령어
