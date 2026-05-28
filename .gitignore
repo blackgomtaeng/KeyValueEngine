@@ -1,64 +1,18 @@
-# Prerequisites
-*.d
+# 1. 모든 파일과 모든 폴더를 기본적으로 추적 대상에서 완전히 제외
+*
+.*/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# 2. 깃(Git)에 무조건 유지해야 하는 순수 소스 자산 5개만 예외로 허용
+!kve.h
+!kve.c
+!main.c
+!README.md
+!.gitignore
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+# 3. 현재 폴더에 다이렉트로 생성되는 각 OS별 동적 라이브러리 및 데이터베이스 파일 차단 (무조건 1개씩 고정 패턴)
 *.dll
 *.so
 *.so.*
 *.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
-
-# Database files
-*.sql
-*.sql*
 *.db
-*.db*
-*.log
-*.sqlitedb
-*.sqlitedb*
+*.tmp
